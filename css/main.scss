@@ -1,0 +1,188 @@
+$white: #fff;
+
+$blue: #3eb0f7;
+
+$gray: #cacaca;
+$graydark: #EBEBEB;
+
+$aside: 746px;
+
+
+body {
+    height: 100%;
+    font-family: "Lato", "Serif";
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777;
+    background: #fff;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#menu {
+    z-index: 99;
+    display: fixed;
+    .navbar-default {
+    background: $white;
+    box-shadow: 0px 0.5px 2px #cecece;
+   	.navbar-default .navbar-brand {
+    padding: 7px;
+  	 }
+ 	 }
+	}
+.navbar-toggle{
+	margin-top: 17px;
+	margin-bottom: 19px;
+}
+.site-name img {
+    width: 150px;
+    height: 37px;
+}
+
+#navbar-scroll{
+	    padding-top: 7px;
+	    padding-bottom: 7px;
+}
+
+.landing{
+	    background-image: url("../images/1920x665-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 57% -15.219px;
+    background-repeat: no-repeat;
+    height: $aside;
+    
+    .overlay{
+    	height: $aside;
+    	background-color: rgba(0, 0, 0, 0.49);
+    	h1{
+			    font-size: 56px;
+			    font-weight: 300;
+			    color: #fff;
+			    margin: 30px 0 30px 0;
+			    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+
+    	}
+    				    p{
+			    	color: $white;
+			    }
+    }
+}
+
+.texto-encabezado{
+	    margin: 190px 0 40px 0;
+	}
+
+.head-btn{
+	        margin: 33px 0px 30px 0px;
+
+		.btn-default {
+		    font-size: 17px;
+		    line-height: 20px;
+		    padding: 15px 35px;
+		    height: 50px;
+		    border: 2px solid #3eb0f7;
+		    background: transparent;
+		    color: #3eb0f7;
+		    border-radius: 100px;
+		    margin: 10px 12px 10px 0px;
+		}
+		.btn-default:hover{
+		    border: 2px solid $blue;
+		    background: $blue;
+		    color: $white;
+		    text-decoration: none;
+		}
+	}
+
+
+.more{
+	a{
+		color: $white;
+		}
+	}
+
+.btn:hover, .btn:focus{
+			color: $blue !important;
+		}
+
+section{
+	.border{
+		margin-top: 5%;
+	}
+
+	.info{
+		background-color: $graydark;
+		margin-top: 5%;
+		padding: 5%; 
+	}
+
+	.dos{
+		margin-top: 5%;
+	}
+	a{
+		color: $blue;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+}
+footer{
+	padding:4%;
+	.caja-redes a{
+		font-size: 20px;
+	}
+	.icon-button {
+		border-radius: 3em;
+		cursor: pointer;
+		display: inline-block;
+		height: 3em;
+		position: relative;
+		width: 3em;
+		border: 2px solid $blue;
+	}
+	.icon-button span {
+		border-radius: 0;
+		display: block;
+		height: 0;
+		left: 50%;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		width: 0;
+	}
+	.icon-button:hover span {
+		width: 3em;
+		height: 3em;
+		border-radius: 3em;
+		margin: -1.5em;
+	}
+	.twitter span {
+		background-color: $blue;
+	}
+	.facebook span {
+		background-color: $blue;
+	}
+	.google-plus span {
+		background-color: $blue;
+	}
+	.instagram span{
+		background-color: $blue;
+	}
+	.icon-button i {
+		background: none;
+		color: $blue;
+		left: 0;
+		line-height: 3em;
+		position: absolute;
+		top: 0;	
+		width: 3em;
+		z-index: 2;
+	}
+	.icon-button i:hover{
+		color: $white;
+	}
+}

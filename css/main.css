@@ -1,0 +1,140 @@
+body {
+  height: 100%;
+  font-family: "Lato", "Serif";
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777;
+  background: #fff;
+  overflow-x: hidden;
+  position: relative; }
+
+#menu {
+  z-index: 99;
+  display: fixed; }
+  #menu .navbar-default {
+    background: #fff;
+    box-shadow: 0px 0.5px 2px #cecece; }
+    #menu .navbar-default .navbar-default .navbar-brand {
+      padding: 7px; }
+
+.navbar-toggle {
+  margin-top: 17px;
+  margin-bottom: 19px; }
+
+.site-name img {
+  width: 150px;
+  height: 37px; }
+
+#navbar-scroll {
+  padding-top: 7px;
+  padding-bottom: 7px; }
+
+.landing {
+  background-image: url("../images/1920x665-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 57% -15.219px;
+  background-repeat: no-repeat;
+  height: 746px; }
+  .landing .overlay {
+    height: 746px;
+    background-color: rgba(0, 0, 0, 0.49); }
+    .landing .overlay h1 {
+      font-size: 56px;
+      font-weight: 300;
+      color: #fff;
+      margin: 30px 0 30px 0;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+    .landing .overlay p {
+      color: #fff; }
+
+.texto-encabezado {
+  margin: 190px 0 40px 0; }
+
+.head-btn {
+  margin: 33px 0px 30px 0px; }
+  .head-btn .btn-default {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 15px 35px;
+    height: 50px;
+    border: 2px solid #3eb0f7;
+    background: transparent;
+    color: #3eb0f7;
+    border-radius: 100px;
+    margin: 10px 12px 10px 0px; }
+  .head-btn .btn-default:hover {
+    border: 2px solid #3eb0f7;
+    background: #3eb0f7;
+    color: #fff;
+    text-decoration: none; }
+
+.more a {
+  color: #fff; }
+
+.btn:hover, .btn:focus {
+  color: #3eb0f7 !important; }
+
+section .border {
+  margin-top: 5%; }
+section .info {
+  background-color: #EBEBEB;
+  margin-top: 5%;
+  padding: 5%; }
+section .dos {
+  margin-top: 5%; }
+section a {
+  color: #3eb0f7; }
+section a:hover {
+  text-decoration: none; }
+
+footer {
+  padding: 4%; }
+  footer .caja-redes a {
+    font-size: 20px; }
+  footer .icon-button {
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    height: 3em;
+    position: relative;
+    width: 3em;
+    border: 2px solid #3eb0f7; }
+  footer .icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 0; }
+  footer .icon-button:hover span {
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    margin: -1.5em; }
+  footer .twitter span {
+    background-color: #3eb0f7; }
+  footer .facebook span {
+    background-color: #3eb0f7; }
+  footer .google-plus span {
+    background-color: #3eb0f7; }
+  footer .instagram span {
+    background-color: #3eb0f7; }
+  footer .icon-button i {
+    background: none;
+    color: #3eb0f7;
+    left: 0;
+    line-height: 3em;
+    position: absolute;
+    top: 0;
+    width: 3em;
+    z-index: 2; }
+  footer .icon-button i:hover {
+    color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
